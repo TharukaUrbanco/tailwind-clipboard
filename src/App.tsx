@@ -1,7 +1,6 @@
 import FooterComponent from "./components/FooterComponent";
 import HomeComponent from "./components/HomeComponent";
 import SecondComponent from "./components/SecondComponent";
-import ThirdComponent from "./components/ThirdComponent";
 
 const App = () => {
   return (
@@ -12,7 +11,6 @@ const App = () => {
     >
       <HomeComponent />
       <SecondComponent />
-      {/* <ThirdComponent /> */}
       <FooterComponent />
     </div>
   );
